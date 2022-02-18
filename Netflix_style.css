@@ -1,0 +1,47 @@
+body{
+    position: absolute;
+    background-image: url("netflix_pic1.jpg");
+    position: relative;
+}
+.big-rect{
+    display:flex;
+    flex-direction: column;
+}
+.head-rect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-rect{
+    font-size: 37px;
+    font-family: Helvetica, sans-serif;
+    color: red;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.iind-rect{
+    display: flex;
+    flex-direction: row;
+    width:230px;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+.foot-rect{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 148px;
+    padding-right: 70px;
+}
+.content-rect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-left: 50px;
+}
+.line-rect{
+    margin-top: -8px;
+}
